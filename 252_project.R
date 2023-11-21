@@ -361,6 +361,7 @@ if (exists("subset_data_matrix3")) {
 
 
 View(subset_data_matrix3)
+library(cluster)
 dist_matrix = daisy(subset_data_matrix3,metric = 'gower')
 
 # Hierarchical clustering
@@ -373,16 +374,42 @@ cutree_hc <- cutree(hc, k = 8) # for example, 3 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix3,metric = 'gower'))
 plot(silhouette_score,col="blue")
+#cophenetic
+copheneticA<-cophenetic(hc)
+cor(copheneticA,dist_matrix)
+
+#using wss
+fviz_nbclust(subset_data_matrix2,hcut,method = c("wss"))
+#using silhouette
+fviz_nbclust(subset_data_matrix2,hcut,method = c("silhouette"))
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
+print(dunn_index)
 
 #kprototype
 library(klaR)
+library(clustMixType)
+library(factoextra)
 # Set the number of clusters, ensuring it does not exceed the number of rows
 try_clusters <- min(nrow(subset_data_matrix3), 8)
-View(subset_data_matrix3)
 # Perform k-proto clustering on the cleaned matrix
-#clusters <- kmodes(subset_data_matrix3,try_clusters)
-#clusters$cluster
-km=kproto(subset_data_matrix3,try_clusters)
+# Adjust 'k' as necessary for your analysis
+km <- kproto(subset_data_matrix3, try_clusters)
+# Calculate Gower distance
+gower_dist <- daisy(subset_data_matrix3, metric = 'gower')
+# Calculate silhouette score
+silhouette_score <- silhouette(km$cluster, gower_dist)
+# Average silhouette width
+avg_sil_width <- mean(silhouette_score[, "sil_width"])
+print(avg_sil_width)
+# Plot the silhouette plot (optional)
+fviz_silhouette(silhouette_score)
+
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
+print(dunn_index)
 
 #########################
 ####Dataset property####
@@ -466,16 +493,44 @@ cutree_hc <- cutree(hc, k = 8) # for example, 3 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix4,metric = 'gower'))
 plot(silhouette_score,col="blue")
+#cophenetic
+copheneticA<-cophenetic(hc)
+cor(copheneticA,dist_matrix)
+
+#using wss
+fviz_nbclust(subset_data_matrix4,hcut,method = c("wss"))
+#using silhouette
+fviz_nbclust(subset_data_matrix4,hcut,method = c("silhouette"))
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
+print(dunn_index)
+
+
 
 #kprototype
 library(klaR)
+library(clustMixType)
+library(factoextra)
 # Set the number of clusters, ensuring it does not exceed the number of rows
 try_clusters <- min(nrow(subset_data_matrix4), 8)
-#View(subset_data_matrix4)
 # Perform k-proto clustering on the cleaned matrix
-#clusters <- kmodes(subset_data_matrix3,try_clusters)
-#clusters$cluster
-km=kproto(subset_data_matrix4,try_clusters)
+# Adjust 'k' as necessary for your analysis
+km <- kproto(subset_data_matrix4, try_clusters)
+# Calculate Gower distance
+gower_dist <- daisy(subset_data_matrix4, metric = 'gower')
+# Calculate silhouette score
+silhouette_score <- silhouette(km$cluster, gower_dist)
+# Average silhouette width
+avg_sil_width <- mean(silhouette_score[, "sil_width"])
+print(avg_sil_width)
+# Plot the silhouette plot (optional)
+fviz_silhouette(silhouette_score)
+
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
+print(dunn_index)
 
 #########################
 ####Dataset manager####
@@ -559,17 +614,42 @@ cutree_hc <- cutree(hc, k = 3) # for example, 3 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix5,metric = 'gower'))
 plot(silhouette_score,col="blue")
+#cophenetic
+copheneticA<-cophenetic(hc)
+cor(copheneticA,dist_matrix)
+
+#using wss
+fviz_nbclust(subset_data_matrix5,hcut,method = c("wss"))
+#using silhouette
+fviz_nbclust(subset_data_matrix5,hcut,method = c("silhouette"))
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
+print(dunn_index)
 
 #kprototype
 library(klaR)
+library(clustMixType)
+library(factoextra)
 # Set the number of clusters, ensuring it does not exceed the number of rows
 try_clusters <- min(nrow(subset_data_matrix5), 3)
-#View(subset_data_matrix4)
 # Perform k-proto clustering on the cleaned matrix
-#clusters <- kmodes(subset_data_matrix3,try_clusters)
-#clusters$cluster
-km=kproto(subset_data_matrix5,try_clusters)
-km$cluster
+# Adjust 'k' as necessary for your analysis
+km <- kproto(subset_data_matrix5, try_clusters)
+# Calculate Gower distance
+gower_dist <- daisy(subset_data_matrix5, metric = 'gower')
+# Calculate silhouette score
+silhouette_score <- silhouette(km$cluster, gower_dist)
+# Average silhouette width
+avg_sil_width <- mean(silhouette_score[, "sil_width"])
+print(avg_sil_width)
+# Plot the silhouette plot (optional)
+fviz_silhouette(silhouette_score)
+
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
+print(dunn_index)
 
 ####################
 ####Dataset male####
@@ -648,21 +728,46 @@ print(hc)
 plot(hc)
 
 # Cutting the dendrogram to form clusters
-cutree_hc <- cutree(hc, k = 8) # for example, 3 clusters
+cutree_hc <- cutree(hc, k = 6) # for example, 3 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix6,metric = 'gower'))
 plot(silhouette_score,col="blue")
+#cophenetic
+copheneticA<-cophenetic(hc)
+cor(copheneticA,dist_matrix)
+
+#using wss
+fviz_nbclust(subset_data_matrix6,hcut,method = c("wss"))
+#using silhouette
+fviz_nbclust(subset_data_matrix6,hcut,method = c("silhouette"))
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
+print(dunn_index)
 
 #kprototype
 library(klaR)
+library(clustMixType)
+library(factoextra)
 # Set the number of clusters, ensuring it does not exceed the number of rows
 try_clusters <- min(nrow(subset_data_matrix6), 8)
-#View(subset_data_matrix4)
 # Perform k-proto clustering on the cleaned matrix
-#clusters <- kmodes(subset_data_matrix6,try_clusters)
-#clusters$cluster
-km=kproto(subset_data_matrix6,try_clusters)
-km$cluster
+# Adjust 'k' as necessary for your analysis
+km <- kproto(subset_data_matrix6, try_clusters)
+# Calculate Gower distance
+gower_dist <- daisy(subset_data_matrix6, metric = 'gower')
+# Calculate silhouette score
+silhouette_score <- silhouette(km$cluster, gower_dist)
+# Average silhouette width
+avg_sil_width <- mean(silhouette_score[, "sil_width"])
+print(avg_sil_width)
+# Plot the silhouette plot (optional)
+fviz_silhouette(silhouette_score)
+
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
+print(dunn_index)
 
 ####################
 ####Dataset female##
@@ -741,21 +846,46 @@ print(hc)
 plot(hc)
 
 # Cutting the dendrogram to form clusters
-cutree_hc <- cutree(hc, k = 4) # for example, 3 clusters
+cutree_hc <- cutree(hc, k = 4) # for example, 4 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix7,metric = 'gower'))
 plot(silhouette_score,col="blue")
+#cophenetic
+copheneticA<-cophenetic(hc)
+cor(copheneticA,dist_matrix)
+
+#using wss
+fviz_nbclust(subset_data_matrix7,hcut,method = c("wss"))
+#using silhouette
+fviz_nbclust(subset_data_matrix7,hcut,method = c("silhouette"))
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
+print(dunn_index)
 
 #kprototype
 library(klaR)
+library(clustMixType)
+library(factoextra)
 # Set the number of clusters, ensuring it does not exceed the number of rows
-try_clusters <- min(nrow(subset_data_matrix7),4)
-#View(subset_data_matrix4)
+try_clusters <- min(nrow(subset_data_matrix7), 4)
 # Perform k-proto clustering on the cleaned matrix
-#clusters <- kmodes(subset_data_matrix6,try_clusters)
-#clusters$cluster
-km=kproto(subset_data_matrix7,try_clusters)
-km$cluster
+# Adjust 'k' as necessary for your analysis
+km <- kproto(subset_data_matrix7, try_clusters)
+# Calculate Gower distance
+gower_dist <- daisy(subset_data_matrix7, metric = 'gower')
+# Calculate silhouette score
+silhouette_score <- silhouette(km$cluster, gower_dist)
+# Average silhouette width
+avg_sil_width <- mean(silhouette_score[, "sil_width"])
+print(avg_sil_width)
+# Plot the silhouette plot (optional)
+fviz_silhouette(silhouette_score)
+
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
+print(dunn_index)
 
 ####################
 ####Dataset yrs_above##
@@ -833,22 +963,48 @@ hc <- hclust(dist_matrix, method = "complete")  # You can try different methods 
 print(hc)
 plot(hc)
 
+
 # Cutting the dendrogram to form clusters
-cutree_hc <- cutree(hc, k = 8) # for example, 3 clusters
+cutree_hc <- cutree(hc, k = 8) # for example, 8 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix8,metric = 'gower'))
 plot(silhouette_score,col="blue")
+#cophenetic
+copheneticA<-cophenetic(hc)
+cor(copheneticA,dist_matrix)
+
+#using wss
+fviz_nbclust(subset_data_matrix8,hcut,method = c("wss"))
+#using silhouette
+fviz_nbclust(subset_data_matrix8,hcut,method = c("silhouette"))
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
+print(dunn_index)
 
 #kprototype
 library(klaR)
+library(clustMixType)
+library(factoextra)
 # Set the number of clusters, ensuring it does not exceed the number of rows
-try_clusters <- min(nrow(subset_data_matrix8),8)
-#View(subset_data_matrix4)
+try_clusters <- min(nrow(subset_data_matrix8), 8)
 # Perform k-proto clustering on the cleaned matrix
-#clusters <- kmodes(subset_data_matrix6,try_clusters)
-#clusters$cluster
-km=kproto(subset_data_matrix8,try_clusters)
-km$cluster
+# Adjust 'k' as necessary for your analysis
+km <- kproto(subset_data_matrix8, try_clusters)
+# Calculate Gower distance
+gower_dist <- daisy(subset_data_matrix8, metric = 'gower')
+# Calculate silhouette score
+silhouette_score <- silhouette(km$cluster, gower_dist)
+# Average silhouette width
+avg_sil_width <- mean(silhouette_score[, "sil_width"])
+print(avg_sil_width)
+# Plot the silhouette plot (optional)
+fviz_silhouette(silhouette_score)
+
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
+print(dunn_index)
 ####################
 ####Dataset yrs_below##
 ####################
@@ -930,17 +1086,42 @@ cutree_hc <- cutree(hc, k = 4) # for example, 4 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix9,metric = 'gower'))
 plot(silhouette_score,col="blue")
+#cophenetic
+copheneticA<-cophenetic(hc)
+cor(copheneticA,dist_matrix)
+
+#using wss
+fviz_nbclust(subset_data_matrix9,hcut,method = c("wss"))
+#using silhouette
+fviz_nbclust(subset_data_matrix9,hcut,method = c("silhouette"))
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
+print(dunn_index)
 
 #kprototype
 library(klaR)
+library(clustMixType)
+library(factoextra)
 # Set the number of clusters, ensuring it does not exceed the number of rows
-try_clusters <- min(nrow(subset_data_matrix9),4)
-#View(subset_data_matrix4)
+try_clusters <- min(nrow(subset_data_matrix9), 4)
 # Perform k-proto clustering on the cleaned matrix
-#clusters <- kmodes(subset_data_matrix6,try_clusters)
-#clusters$cluster
-km=kproto(subset_data_matrix8,try_clusters)
-km$cluster
+# Adjust 'k' as necessary for your analysis
+km <- kproto(subset_data_matrix9, try_clusters)
+# Calculate Gower distance
+gower_dist <- daisy(subset_data_matrix9, metric = 'gower')
+# Calculate silhouette score
+silhouette_score <- silhouette(km$cluster, gower_dist)
+# Average silhouette width
+avg_sil_width <- mean(silhouette_score[, "sil_width"])
+print(avg_sil_width)
+# Plot the silhouette plot (optional)
+fviz_silhouette(silhouette_score)
+
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
+print(dunn_index)
 
 ####################
 ####Dataset single##
@@ -1023,6 +1204,18 @@ cutree_hc <- cutree(hc, k = 3) # for example, 3 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix10,metric = 'gower'))
 plot(silhouette_score,col="blue")
+#cophenetic
+copheneticA<-cophenetic(hc)
+cor(copheneticA,dist_matrix)
+
+#using wss
+fviz_nbclust(subset_data_matrix10,hcut,method = c("wss"))
+#using silhouette
+fviz_nbclust(subset_data_matrix10,hcut,method = c("silhouette"))
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
+print(dunn_index)
 
 #transfrom variable
 subset_data_matrix10[["CNT_CHILDREN"]] <- as.factor(subset_data_matrix10[["CNT_CHILDREN"]])
@@ -1033,14 +1226,27 @@ subset_data_matrix10[["FLAG_EMAIL"]] <- as.factor(subset_data_matrix10[["FLAG_EM
 subset_data_matrix10[["CNT_FAM_MEMBERS"]] <- as.factor(subset_data_matrix10[["CNT_FAM_MEMBERS"]])
 #kprototype
 library(klaR)
+library(clustMixType)
+library(factoextra)
 # Set the number of clusters, ensuring it does not exceed the number of rows
-try_clusters <- min(nrow(subset_data_matrix10),3)
-#View(subset_data_matrix4)
+try_clusters <- min(nrow(subset_data_matrix10), 3)
 # Perform k-proto clustering on the cleaned matrix
-#clusters <- kmodes(subset_data_matrix6,try_clusters)
-#clusters$cluster
-km=kproto(subset_data_matrix10,try_clusters)
-km$cluster
+# Adjust 'k' as necessary for your analysis
+km <- kproto(subset_data_matrix10, try_clusters)
+# Calculate Gower distance
+gower_dist <- daisy(subset_data_matrix10, metric = 'gower')
+# Calculate silhouette score
+silhouette_score <- silhouette(km$cluster, gower_dist)
+# Average silhouette width
+avg_sil_width <- mean(silhouette_score[, "sil_width"])
+print(avg_sil_width)
+# Plot the silhouette plot (optional)
+fviz_silhouette(silhouette_score)
+
+#dunn index
+library(fpc)
+dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
+print(dunn_index)
 
 
 
