@@ -1,0 +1,970 @@
+"ID","MONTHS_BALANCE","STATUS","CODE_GENDER","FLAG_OWN_CAR","FLAG_OWN_REALTY","CNT_CHILDREN","AMT_INCOME_TOTAL","NAME_INCOME_TYPE","NAME_EDUCATION_TYPE","NAME_FAMILY_STATUS","NAME_HOUSING_TYPE","DAYS_BIRTH","DAYS_EMPLOYED","FLAG_MOBIL","FLAG_WORK_PHONE","FLAG_PHONE","FLAG_EMAIL","OCCUPATION_TYPE","CNT_FAM_MEMBERS"
+5008806,-28,"0","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-19,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-29,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-21,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-23,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-20,"0","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-9,"0","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-22,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,0,"C","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-13,"0","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-14,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-15,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-16,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-17,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-18,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-5,"C","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-6,"C","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-7,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-8,"0","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-27,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-24,"0","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-25,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-26,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-4,"C","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-1,"C","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-2,"C","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-3,"C","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-12,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-10,"X","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008806,-11,"0","M","Y","Y",0,112500,"Working","Secondary / secondary special","Married","House / apartment",-21474,-1134,1,0,0,0,"Security staff",2
+5008808,-3,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008808,-1,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008808,-2,"0","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008808,-4,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008808,0,"0","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008809,-25,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008809,-24,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008809,-22,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008809,-23,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008809,-26,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-14,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-19,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-20,"0","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-21,"0","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,0,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-23,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-9,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-24,"0","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-22,"0","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-13,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-18,"0","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-15,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-16,"0","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-17,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-8,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-5,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-6,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-7,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-26,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-4,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-10,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-25,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-3,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-12,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-1,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-2,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008810,-11,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-11,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-35,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-36,"0","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-1,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,0,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-9,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-12,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-37,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-38,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-14,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-30,"0","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-2,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-3,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-4,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-5,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-6,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-7,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-8,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-22,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-10,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-24,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-13,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-29,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-27,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-31,"X","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-32,"0","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-33,"0","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-34,"0","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-19,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-20,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-21,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-26,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-23,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-15,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-25,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-17,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-18,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-16,"C","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008811,-28,"0","F","N","Y",0,270000,"Commercial associate","Secondary / secondary special","Single / not married","House / apartment",-19110,-3051,1,0,1,1,"Sales staff",1
+5008812,-17,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-4,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-9,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-11,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-13,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-14,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-15,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-12,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-6,"X","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-7,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-8,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-5,"X","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-16,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-10,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-20,"X","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-18,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008812,-19,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-11,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-10,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-1,"X","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-16,"X","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-5,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-2,"X","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-3,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-8,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-9,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,0,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-12,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-15,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-14,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-6,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-7,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-4,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008813,-13,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-11,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-1,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-2,"X","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-3,"X","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-10,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-8,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-15,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-9,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-17,"X","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-14,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-4,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-16,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-6,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-7,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-5,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-12,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008814,-13,"0","F","N","Y",0,283500,"Pensioner","Higher education","Separated","House / apartment",-22464,365243,1,0,0,0,"",1
+5008815,-4,"0","M","Y","Y",0,270000,"Working","Higher education","Married","House / apartment",-16872,-769,1,1,1,1,"Accountants",2
+5008815,-3,"0","M","Y","Y",0,270000,"Working","Higher education","Married","House / apartment",-16872,-769,1,1,1,1,"Accountants",2
+5008815,-1,"0","M","Y","Y",0,270000,"Working","Higher education","Married","House / apartment",-16872,-769,1,1,1,1,"Accountants",2
+5008815,0,"0","M","Y","Y",0,270000,"Working","Higher education","Married","House / apartment",-16872,-769,1,1,1,1,"Accountants",2
+5008815,-2,"0","M","Y","Y",0,270000,"Working","Higher education","Married","House / apartment",-16872,-769,1,1,1,1,"Accountants",2
+5008815,-5,"0","M","Y","Y",0,270000,"Working","Higher education","Married","House / apartment",-16872,-769,1,1,1,1,"Accountants",2
+5008819,-11,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008819,-15,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008819,-12,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008819,-13,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008819,-16,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008819,-17,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008819,-10,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008819,-14,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008820,-11,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008820,-10,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008820,-16,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008820,-12,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008820,-15,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008820,-9,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008820,-8,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008820,-14,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008820,-13,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008821,0,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008821,-1,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008821,-3,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008821,-4,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008821,-8,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008821,-7,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008821,-2,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008821,-5,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008821,-6,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008822,-17,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008822,-21,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008822,-18,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008822,-22,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008822,-16,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008822,-19,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008822,-20,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008822,-14,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008822,-15,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008823,-7,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008823,-5,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008823,-6,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008823,-4,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008823,-3,"X","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008824,0,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008824,-3,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008824,-2,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008824,-1,"0","M","Y","Y",0,135000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-17778,-1194,1,0,0,0,"Laborers",2
+5008825,-17,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-24,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-16,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-20,"1","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-9,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-10,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-11,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-18,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-14,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-15,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,0,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-1,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-2,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-3,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-19,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-5,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-21,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-22,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-23,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-4,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-12,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-13,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-7,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-8,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-6,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008825,-25,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-3,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-11,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-8,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-4,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-30,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-29,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-23,"1","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-24,"1","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-5,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-1,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-2,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-28,"1","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-15,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-16,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-6,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-7,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-19,"1","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-9,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-10,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-22,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-14,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-25,"1","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-26,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-27,"1","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-18,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-20,"1","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-17,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-13,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-21,"0","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008826,-12,"C","F","Y","N",0,130500,"Working","Incomplete higher","Married","House / apartment",-10669,-1103,1,0,0,0,"Accountants",2
+5008827,-2,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-18,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-3,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-9,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-7,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-21,"5","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-8,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-1,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,0,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-14,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-15,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-16,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-17,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-4,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-5,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-6,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-20,"5","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-34,"1","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-10,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-11,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-12,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-13,"C","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-25,"3","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-26,"2","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-27,"1","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-28,"2","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-29,"1","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-30,"1","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-19,"5","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-33,"1","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-24,"4","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-35,"1","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-36,"0","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-37,"0","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-32,"1","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-31,"1","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-23,"5","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008827,-22,"5","M","Y","Y",0,180000,"Pensioner","Higher education","Married","House / apartment",-18772,365243,1,0,0,0,"",2
+5008830,-2,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-3,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-20,"1","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-21,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-10,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-9,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-24,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-4,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-5,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,0,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-1,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-15,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-16,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-17,"1","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-18,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-6,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-7,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-8,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-23,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-14,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-11,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-12,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-13,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-31,"X","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-28,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-29,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-30,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-26,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-19,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-22,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-27,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008830,-25,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-16,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-6,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-7,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-5,"1","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-19,"X","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-12,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-13,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-14,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-15,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,0,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-1,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-17,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-18,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-4,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-11,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-8,"1","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-9,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-10,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-2,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008831,-3,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-12,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-31,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-34,"X","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-9,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-32,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-33,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,0,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-24,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-25,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-1,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-2,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-3,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-4,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-5,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-6,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-7,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-8,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-20,"1","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-10,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-11,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-23,"1","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-29,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-26,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-27,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-28,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-19,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-30,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-17,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-18,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-14,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-15,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-21,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-22,"0","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-16,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008832,-13,"C","F","N","Y",0,157500,"Working","Secondary / secondary special","Married","House / apartment",-10031,-1469,1,0,1,0,"Laborers",2
+5008834,-5,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-14,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-4,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-3,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-44,"0","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-36,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-37,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-38,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-39,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,0,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-1,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-2,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-16,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-17,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-6,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-7,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-8,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-9,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-10,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-11,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-12,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-13,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-25,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-40,"0","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-15,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-29,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-30,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-31,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-32,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-33,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-34,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-35,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-22,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-23,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-24,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-43,"0","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-26,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-41,"0","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-42,"0","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-20,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-21,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-18,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-19,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-28,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008834,-27,"C","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-41,"X","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-32,"X","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-37,"X","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-35,"X","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-38,"X","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-33,"X","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-34,"X","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-40,"X","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-31,"X","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-28,"X","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-29,"X","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-30,"X","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-43,"0","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-36,"X","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-39,"X","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-44,"0","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008835,-42,"0","F","N","Y",1,112500,"Working","Secondary / secondary special","Single / not married","House / apartment",-10968,-1620,1,0,0,0,"",2
+5008836,-9,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-19,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-13,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-11,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-24,"0","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-20,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-10,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-18,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-16,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-8,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-17,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-14,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-15,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-12,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-21,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-22,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008836,-23,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-3,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-18,"0","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-4,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-5,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-10,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-2,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-13,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-14,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-15,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-16,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-6,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-7,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-8,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-9,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-12,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-17,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008837,-11,"C","M","Y","Y",3,270000,"Working","Secondary / secondary special","Married","House / apartment",-12689,-1163,1,0,0,0,"Laborers",5
+5008838,-24,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-38,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-39,"X","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-30,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-31,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-32,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-29,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-18,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-9,"X","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-10,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-11,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-23,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-37,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-25,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-26,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-27,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-28,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-15,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-16,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-17,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-36,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-33,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-34,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-35,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-13,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-14,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-19,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-12,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-21,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-22,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008838,-20,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008839,-11,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008839,-8,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008839,0,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008839,-4,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008839,-5,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008839,-6,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008839,-7,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008839,-10,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008839,-13,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008839,-1,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008839,-2,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008839,-3,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008839,-9,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008839,-12,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-24,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-16,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-17,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-15,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-36,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-37,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-35,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-54,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-55,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-18,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-53,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-14,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-28,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-29,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-30,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-31,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-19,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-20,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-21,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-22,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-23,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-40,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-12,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-13,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-27,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-44,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-45,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-46,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-47,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-32,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-33,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-34,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-38,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-39,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-10,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-25,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-26,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-43,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,0,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-1,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-2,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-3,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-48,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-49,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-50,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-51,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-52,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-9,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-11,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-41,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-42,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-4,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-5,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-6,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-7,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008840,-8,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008841,-4,"X","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008841,0,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008841,-3,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008841,-2,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008841,-1,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008842,0,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008842,-2,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008842,-1,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008842,-7,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008842,-6,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008842,-3,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008842,-4,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008842,-5,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008842,-8,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-10,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-28,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-3,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-29,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-22,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-23,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-4,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,0,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-1,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-2,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-14,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-15,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-5,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-6,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-7,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-8,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-9,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-21,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-27,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-24,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-25,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-26,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-17,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-18,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-19,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-16,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-12,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-13,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-20,"0","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008843,-11,"C","M","N","Y",1,405000,"Commercial associate","Higher education","Married","House / apartment",-11842,-2016,1,0,0,0,"Managers",3
+5008844,-13,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-19,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-12,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-31,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-18,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-17,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-11,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-24,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-25,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-26,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-27,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-14,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-15,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-16,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-30,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-23,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-20,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-21,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-22,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-38,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-35,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-36,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-37,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-43,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-28,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-40,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-29,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-33,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-34,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-39,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-32,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-41,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008844,-42,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008846,-1,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008846,-7,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008846,0,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008846,-9,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008846,-6,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008846,-10,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008846,-8,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008846,-3,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008846,-4,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008846,-5,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008846,-2,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008846,-11,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-15,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-30,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-21,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-16,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-23,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-24,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-27,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-22,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-14,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-29,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-44,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-17,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-18,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-19,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-20,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-34,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-35,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-36,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-37,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-25,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-26,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-28,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-43,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-42,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-45,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-46,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-32,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-33,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-38,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-39,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-40,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-41,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008847,-31,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008849,-43,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008849,-44,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008849,-46,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008849,-51,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008849,-42,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008849,-45,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008849,-40,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008849,-41,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008849,-50,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008849,-47,"X","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008849,-48,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008849,-49,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-11,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-3,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-4,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-5,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-6,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-23,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-24,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,0,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-1,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-2,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-14,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-15,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-16,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-17,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-7,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-8,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-9,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-10,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-22,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-18,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-25,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-12,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-13,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-19,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-20,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008850,-21,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008851,-4,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008851,-11,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008851,-5,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008851,-6,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008851,-7,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008851,-1,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008851,-2,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008851,-3,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008851,0,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008851,-9,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008851,-10,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008851,-8,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008852,0,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-36,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-24,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-32,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-29,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-30,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-31,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-35,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-28,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-25,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-26,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-27,"C","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-38,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-33,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-34,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-39,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008853,-37,"0","M","Y","Y",0,112500,"Commercial associate","Secondary / secondary special","Married","House / apartment",-20502,-4450,1,0,1,0,"Drivers",2
+5008854,-39,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008854,-38,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-21,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-17,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-16,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-8,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-15,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-6,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-7,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-13,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-14,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-27,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-28,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-2,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-3,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-18,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-19,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-20,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-12,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-9,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-10,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-11,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-24,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-26,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,0,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-1,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-25,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-4,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-5,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-22,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008855,-23,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008856,0,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008856,-3,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008856,-1,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008856,-2,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-2,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-1,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-18,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-26,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-27,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-24,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-25,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,0,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-17,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-14,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-19,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-20,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-21,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-22,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-23,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-7,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-8,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-9,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-10,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-11,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-12,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-13,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-5,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-15,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-3,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-4,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-6,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008857,-16,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008858,-4,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008858,-6,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008858,-8,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008858,-9,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008858,0,"C","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008858,-7,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008858,-2,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008858,-3,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008858,-5,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008858,-1,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008858,-10,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008859,0,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008859,-1,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008859,-3,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008859,-2,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008859,-4,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008860,-1,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008860,-2,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008860,-3,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008860,0,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008861,0,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008861,-1,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008861,-2,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008861,-3,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008862,-2,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008862,-1,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008862,0,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008863,-2,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008863,-1,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008864,-2,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008864,-1,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008864,0,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008865,-7,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008865,-8,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008866,-18,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008866,-19,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008867,-22,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008867,-25,"X","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008867,-24,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008867,-23,"0","F","Y","Y",2,135000,"Working","Secondary / secondary special","Married","House / apartment",-15761,-3173,1,0,0,0,"Laborers",4
+5008868,-6,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-5,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-1,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-4,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-12,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-9,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-10,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-11,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-3,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,0,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-15,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-2,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-7,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-8,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-18,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-19,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-20,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-21,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-13,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-23,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-24,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-16,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-14,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-22,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008868,-17,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008870,-13,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008870,-9,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008870,-12,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008870,-18,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008870,-19,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008870,-20,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008870,-17,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008870,-11,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008870,-14,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008870,-10,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008870,-16,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008870,-15,"0","F","N","Y",1,211500,"State servant","Secondary / secondary special","Civil marriage","House / apartment",-16212,-7099,1,0,0,0,"Core staff",3
+5008872,-1,"0","M","Y","Y",0,360000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-16670,-5364,1,0,1,0,"Security staff",2
+5008872,-5,"0","M","Y","Y",0,360000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-16670,-5364,1,0,1,0,"Security staff",2
+5008872,-2,"0","M","Y","Y",0,360000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-16670,-5364,1,0,1,0,"Security staff",2
+5008872,0,"0","M","Y","Y",0,360000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-16670,-5364,1,0,1,0,"Security staff",2
+5008872,-9,"X","M","Y","Y",0,360000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-16670,-5364,1,0,1,0,"Security staff",2
+5008872,-10,"X","M","Y","Y",0,360000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-16670,-5364,1,0,1,0,"Security staff",2
+5008872,-6,"0","M","Y","Y",0,360000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-16670,-5364,1,0,1,0,"Security staff",2
+5008872,-3,"0","M","Y","Y",0,360000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-16670,-5364,1,0,1,0,"Security staff",2
+5008872,-4,"0","M","Y","Y",0,360000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-16670,-5364,1,0,1,0,"Security staff",2
+5008872,-7,"0","M","Y","Y",0,360000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-16670,-5364,1,0,1,0,"Security staff",2
+5008872,-8,"1","M","Y","Y",0,360000,"Commercial associate","Secondary / secondary special","Married","House / apartment",-16670,-5364,1,0,1,0,"Security staff",2
+5008873,-6,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,0,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-9,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-7,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-1,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-5,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-12,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-13,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-14,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-15,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-2,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-3,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-4,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-19,"0","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-8,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-21,"0","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-17,"0","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-10,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-11,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-16,"0","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-18,"0","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008873,-20,"0","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-2,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-9,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-7,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-8,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-25,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-6,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-1,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-15,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-3,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-4,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-5,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-45,"0","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-19,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-20,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-21,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-10,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-11,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-12,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-13,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-14,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-27,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
+5008874,-16,"C","F","N","Y",2,126000,"Commercial associate","Higher education","Married","House / apartment",-12411,-1773,1,0,0,1,"Managers",4
