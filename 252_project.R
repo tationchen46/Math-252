@@ -47,6 +47,17 @@ single <- reduced_merged_data[reduced_merged_data$NAME_FAMILY_STATUS == "Single 
 #Check is NA value in sub_data1
 any(is.na(highschool))
 #Return False means no missing value
+
+# we want to know how many level does categorical variable status have.
+# Get unique values of STATUS if it's not a factor
+unique_values <- unique(highschool$STATUS)
+# Print the unique values
+print(unique_values)
+# Print the number of unique values
+print(paste("Number of unique values in STATUS:", length(unique_values)))
+#so total should have 8 cluster
+
+
 #remove the "" value in the cells
 highschool <- highschool[highschool$OCCUPATION_TYPE != "", ]
 View(highschool)
