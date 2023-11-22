@@ -64,11 +64,10 @@ View(highschool)
 #Remove some variable unnecessary
 # Convert to matrix
 library(dplyr)
-
 # Check if all columns exist
-if (all(c("ID", "NAME_EDUCATION_TYPE", "STATUS") %in% colnames(highschool))) {
+if (all(c("ID", "NAME_EDUCATION_TYPE") %in% colnames(highschool))) {
   # If all columns exist, remove them
-  highschool <- highschool %>% select(-ID, -NAME_EDUCATION_TYPE, -STATUS)
+  highschool <- highschool %>% select(-ID, -NAME_EDUCATION_TYPE, )
 } else {
   # If not all columns exist, you can add your desired action here
   print("One or more specified columns do not exist in the dataframe.")
@@ -102,6 +101,7 @@ top_variables_dim1 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE
 top_var_df <- as.data.frame(top_variables_dim1)
 top_var_df$Variable <- rownames(top_var_df)
 subset_data_matrix1 <- data_matrix1[, top_var_df$Variable]
+label_test<-data_matrix1$STATUS
 #View(subset_data_matrix1)
 
 # Recalculate the distance matrix
@@ -134,7 +134,7 @@ plot(silhouette_score,col="blue")
 #cophenetic
 copheneticA<-cophenetic(hc)
 cor(copheneticA,dist_matrix)
-
+library(factoextra)
 #using wss
 fviz_nbclust(subset_data_matrix1,hcut,method = c("wss"))
 #using silhouette
@@ -143,6 +143,9 @@ fviz_nbclust(subset_data_matrix1,hcut,method = c("silhouette"))
 library(fpc)
 dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
 print(dunn_index)
+#ARI
+library(mclust)
+adjustedRandIndex(cutree_hc,label_test)
 
 
 
@@ -168,6 +171,8 @@ fviz_silhouette(silhouette_score)
 library(fpc)
 dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
 print(dunn_index)
+#ARI
+adjustedRandIndex(km$cluster,label_test)
 
 
 
@@ -193,9 +198,9 @@ print(paste("Number of unique values in STATUS:", length(unique_values)))
 
 library(dplyr)
 # Check if all columns exist
-if (all(c("ID", "NAME_INCOME_TYPE", "STATUS", "OCCUPATION_TYPE") %in% colnames(retired))) {
+if (all(c("ID", "NAME_INCOME_TYPE", "OCCUPATION_TYPE") %in% colnames(retired))) {
   # If all columns exist, remove them using dplyr's select
-  retired <- dplyr::select(retired, -ID, -NAME_INCOME_TYPE, -STATUS, -OCCUPATION_TYPE)
+  retired <- dplyr::select(retired, -ID, -NAME_INCOME_TYPE, -OCCUPATION_TYPE)
 } else {
   # If not all columns exist, you can add your desired action here
   print("One or more specified columns do not exist in the dataframe.")
@@ -230,6 +235,7 @@ top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE
 top_var_df2 <- as.data.frame(top_variables_dim2)
 top_var_df2$Variable <- rownames(top_var_df2)
 subset_data_matrix2 <- data_matrix2[, top_var_df2$Variable]
+label_test<-data_matrix2$STATUS
 
 # Recalculate the distance matrix
 library(gower)
@@ -266,6 +272,10 @@ library(fpc)
 dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
 print(dunn_index)
 
+#ARI
+library(mclust)
+adjustedRandIndex(cutree_hc,label_test)
+
 #kprototype
 library(klaR)
 library(clustMixType)
@@ -288,6 +298,9 @@ fviz_silhouette(silhouette_score)
 library(fpc)
 dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
 print(dunn_index)
+#ARI
+library(mclust)
+adjustedRandIndex(km$cluster,label_test)
 
 #Distance is not work for is certain cluster only have 1 observation.
 
@@ -317,9 +330,9 @@ library(dplyr)
 married <- married[married$OCCUPATION_TYPE != "", ]
 
 # Check if all columns exist
-if (all(c("ID", "NAME_FAMILY_STATUS", "STATUS") %in% colnames(married))) {
+if (all(c("ID", "NAME_FAMILY_STATUS") %in% colnames(married))) {
   # If all columns exist, remove them using dplyr's select
-  married <- dplyr::select(married, -ID, -NAME_FAMILY_STATUS, -STATUS)
+  married <- dplyr::select(married, -ID, -NAME_FAMILY_STATUS,)
 } else {
   # If not all columns exist, take an alternative action
   print("One or more specified columns do not exist in the dataframe.")
@@ -354,6 +367,7 @@ top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE
 top_var_df3 <- as.data.frame(top_variables_dim2)
 top_var_df3$Variable <- rownames(top_var_df3)
 subset_data_matrix3 <- data_matrix3[, top_var_df3$Variable]
+label_test<-data_matrix3$STATUS
 #View(subset_data_matrix3)
 # Recalculate the distance matrix
 library(gower)
@@ -398,6 +412,9 @@ library(fpc)
 dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
 print(dunn_index)
 
+library(mclust)
+adjustedRandIndex(cutree_hc,label_test)
+
 #kprototype
 library(klaR)
 library(clustMixType)
@@ -421,6 +438,9 @@ fviz_silhouette(silhouette_score)
 library(fpc)
 dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
 print(dunn_index)
+#ARI
+library(mclust)
+adjustedRandIndex(km$cluster,label_test)
 
 #########################
 ####Dataset property####
@@ -443,9 +463,9 @@ property <- property[property$OCCUPATION_TYPE != "", ]
 #married<-married %>% select(-ID, -NAME_FAMILY_STATUS,-STATUS)
 library(dplyr)
 # Check if all columns exist
-if (all(c("ID", "NAME_HOUSING_TYPE", "STATUS") %in% colnames(property))) {
+if (all(c("ID", "NAME_HOUSING_TYPE") %in% colnames(property))) {
   # If all columns exist, remove them using dplyr's select
-  property <- dplyr::select(property, -ID, -NAME_HOUSING_TYPE, -STATUS)
+  property <- dplyr::select(property, -ID, -NAME_HOUSING_TYPE)
 } else {
   # If not all columns exist, take an alternative action
   print("One or more specified columns do not exist in the dataframe.")
@@ -479,6 +499,7 @@ top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE
 top_var_df3 <- as.data.frame(top_variables_dim2)
 top_var_df3$Variable <- rownames(top_var_df3)
 subset_data_matrix4 <- data_matrix4[, top_var_df3$Variable]
+label_test<-data_matrix4$STATUS
 #View(subset_data_matrix4)
 # Recalculate the distance matrix
 library(gower)
@@ -516,7 +537,9 @@ fviz_nbclust(subset_data_matrix4,hcut,method = c("silhouette"))
 library(fpc)
 dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
 print(dunn_index)
-
+#ARI
+library(mclust)
+adjustedRandIndex(cutree_hc,label_test)
 
 
 #kprototype
@@ -542,6 +565,9 @@ fviz_silhouette(silhouette_score)
 library(fpc)
 dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
 print(dunn_index)
+#ARI
+library(mclust)
+adjustedRandIndex(km$cluster,label_test)
 
 #########################
 ####Dataset manager####
@@ -564,9 +590,9 @@ manager <- manager[manager$OCCUPATION_TYPE != "", ]
 #married<-married %>% select(-ID, -NAME_FAMILY_STATUS,-STATUS)
 library(dplyr)
 # Check if all columns exist
-if (all(c("ID", "OCCUPATION_TYPE", "STATUS") %in% colnames(manager))) {
+if (all(c("ID", "OCCUPATION_TYPE") %in% colnames(manager))) {
   # If all columns exist, remove them using dplyr's select
-  manager <- dplyr::select(manager, -ID, -OCCUPATION_TYPE, -STATUS)
+  manager <- dplyr::select(manager, -ID, -OCCUPATION_TYPE)
 } else {
   # If not all columns exist, take an alternative action
   print("One or more specified columns do not exist in the dataframe.")
@@ -600,6 +626,7 @@ top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE
 top_var_df3 <- as.data.frame(top_variables_dim2)
 top_var_df3$Variable <- rownames(top_var_df3)
 subset_data_matrix5 <- data_matrix5[, top_var_df3$Variable]
+label_test<-data_matrix5$STATUS
 #View(subset_data_matrix4)
 # Recalculate the distance matrix
 library(gower)
@@ -638,6 +665,10 @@ library(fpc)
 dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
 print(dunn_index)
 
+#ARI
+library(mclust)
+adjustedRandIndex(cutree_hc,label_test)
+
 #kprototype
 library(klaR)
 library(clustMixType)
@@ -661,6 +692,8 @@ fviz_silhouette(silhouette_score)
 library(fpc)
 dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
 print(dunn_index)
+#ARI
+adjustedRandIndex(km$cluster,label_test)
 
 ####################
 ####Dataset male####
@@ -682,9 +715,9 @@ male <- male[male$OCCUPATION_TYPE != "", ]
 #married<-married %>% select(-ID, -NAME_FAMILY_STATUS,-STATUS)
 library(dplyr)
 # Check if all columns exist
-if (all(c("ID", "CODE_GENDER", "STATUS") %in% colnames(male))) {
+if (all(c("ID", "CODE_GENDER") %in% colnames(male))) {
   # If all columns exist, remove them using dplyr's select
-  male <- dplyr::select(male, -ID, -CODE_GENDER, -STATUS)
+  male <- dplyr::select(male, -ID, -CODE_GENDER)
 } else {
   # If not all columns exist, take an alternative action
   print("One or more specified columns do not exist in the dataframe.")
@@ -718,6 +751,7 @@ top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE
 top_var_df3 <- as.data.frame(top_variables_dim2)
 top_var_df3$Variable <- rownames(top_var_df3)
 subset_data_matrix6 <- data_matrix6[, top_var_df3$Variable]
+label_test<-data_matrix6$STATUS
 #View(subset_data_matrix4)
 # Recalculate the distance matrix
 library(gower)
@@ -755,6 +789,8 @@ fviz_nbclust(subset_data_matrix6,hcut,method = c("silhouette"))
 library(fpc)
 dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
 print(dunn_index)
+#ARI
+adjustedRandIndex(cutree_hc,label_test)
 
 #kprototype
 library(klaR)
@@ -779,6 +815,8 @@ fviz_silhouette(silhouette_score)
 library(fpc)
 dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
 print(dunn_index)
+#ARI
+adjustedRandIndex(km$cluster,label_test)
 
 ####################
 ####Dataset female##
@@ -800,9 +838,9 @@ female <- female[female$OCCUPATION_TYPE != "", ]
 #married<-married %>% select(-ID, -NAME_FAMILY_STATUS,-STATUS)
 library(dplyr)
 # Check if all columns exist
-if (all(c("ID", "CODE_GENDER", "STATUS") %in% colnames(female))) {
+if (all(c("ID", "CODE_GENDER") %in% colnames(female))) {
   # If all columns exist, remove them using dplyr's select
-  female <- dplyr::select(female, -ID, -CODE_GENDER, -STATUS)
+  female <- dplyr::select(female, -ID, -CODE_GENDER)
 } else {
   # If not all columns exist, take an alternative action
   print("One or more specified columns do not exist in the dataframe.")
@@ -836,6 +874,8 @@ top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE
 top_var_df3 <- as.data.frame(top_variables_dim2)
 top_var_df3$Variable <- rownames(top_var_df3)
 subset_data_matrix7 <- data_matrix7[, top_var_df3$Variable]
+label_test<-data_matrix7$STATUS
+
 #View(subset_data_matrix4)
 # Recalculate the distance matrix
 library(gower)
@@ -873,6 +913,8 @@ fviz_nbclust(subset_data_matrix7,hcut,method = c("silhouette"))
 library(fpc)
 dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
 print(dunn_index)
+#ARI
+adjustedRandIndex(cutree_hc,label_test)
 
 #kprototype
 library(klaR)
@@ -897,6 +939,8 @@ fviz_silhouette(silhouette_score)
 library(fpc)
 dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
 print(dunn_index)
+#ARI
+adjustedRandIndex(km$cluster,label_test)
 
 ####################
 ####Dataset yrs_above##
@@ -918,9 +962,9 @@ yrs_above <- yrs_above[yrs_above$OCCUPATION_TYPE != "", ]
 #married<-married %>% select(-ID, -NAME_FAMILY_STATUS,-STATUS)
 library(dplyr)
 # Check if all columns exist
-if (all(c("ID", "DAYS_BIRTH", "STATUS") %in% colnames(yrs_above))) {
+if (all(c("ID", "DAYS_BIRTH") %in% colnames(yrs_above))) {
   # If all columns exist, remove them using dplyr's select
-  yrs_above <- dplyr::select(yrs_above, -ID, -DAYS_BIRTH, -STATUS)
+  yrs_above <- dplyr::select(yrs_above, -ID, -DAYS_BIRTH)
 } else {
   # If not all columns exist, take an alternative action
   print("One or more specified columns do not exist in the dataframe.")
@@ -954,6 +998,7 @@ top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE
 top_var_df3 <- as.data.frame(top_variables_dim2)
 top_var_df3$Variable <- rownames(top_var_df3)
 subset_data_matrix8 <- data_matrix8[, top_var_df3$Variable]
+label_test<-data_matrix8$STATUS
 #View(subset_data_matrix8)
 # Recalculate the distance matrix
 library(gower)
@@ -993,6 +1038,9 @@ library(fpc)
 dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
 print(dunn_index)
 
+#ARI
+adjustedRandIndex(cutree_hc,label_test)
+
 #kprototype
 library(klaR)
 library(clustMixType)
@@ -1016,6 +1064,9 @@ fviz_silhouette(silhouette_score)
 library(fpc)
 dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
 print(dunn_index)
+
+#ARI
+adjustedRandIndex(km$cluster,label_test)
 ####################
 ####Dataset yrs_below##
 ####################
@@ -1036,9 +1087,9 @@ yrs_below <- yrs_below[yrs_below$OCCUPATION_TYPE != "", ]
 #married<-married %>% select(-ID, -NAME_FAMILY_STATUS,-STATUS)
 library(dplyr)
 # Check if all columns exist
-if (all(c("ID", "DAYS_BIRTH", "STATUS") %in% colnames(yrs_below))) {
+if (all(c("ID", "DAYS_BIRTH") %in% colnames(yrs_below))) {
   # If all columns exist, remove them using dplyr's select
-  yrs_below <- dplyr::select(yrs_below, -ID, -DAYS_BIRTH, -STATUS)
+  yrs_below <- dplyr::select(yrs_below, -ID, -DAYS_BIRTH)
 } else {
   # If not all columns exist, take an alternative action
   print("One or more specified columns do not exist in the dataframe.")
@@ -1072,6 +1123,7 @@ top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE
 top_var_df3 <- as.data.frame(top_variables_dim2)
 top_var_df3$Variable <- rownames(top_var_df3)
 subset_data_matrix9 <- data_matrix9[, top_var_df3$Variable]
+label_test<-data_matrix9$STATUS
 #View(subset_data_matrix9)
 # Recalculate the distance matrix
 library(gower)
@@ -1109,7 +1161,8 @@ fviz_nbclust(subset_data_matrix9,hcut,method = c("silhouette"))
 library(fpc)
 dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
 print(dunn_index)
-
+#ARI
+adjustedRandIndex(cutree_hc,label_test)
 #kprototype
 library(klaR)
 library(clustMixType)
@@ -1133,6 +1186,8 @@ fviz_silhouette(silhouette_score)
 library(fpc)
 dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
 print(dunn_index)
+#ARI
+adjustedRandIndex(km$cluster,label_test)
 
 ####################
 ####Dataset single##
@@ -1154,9 +1209,9 @@ single <- single[single$OCCUPATION_TYPE != "", ]
 #married<-married %>% select(-ID, -NAME_FAMILY_STATUS,-STATUS)
 library(dplyr)
 # Check if all columns exist
-if (all(c("ID", "NAME_FAMILY_STATUS", "STATUS") %in% colnames(single))) {
+if (all(c("ID", "NAME_FAMILY_STATUS") %in% colnames(single))) {
   # If all columns exist, remove them using dplyr's select
-  single <- dplyr::select(single, -ID, -NAME_FAMILY_STATUS, -STATUS)
+  single <- dplyr::select(single, -ID, -NAME_FAMILY_STATUS)
 } else {
   # If not all columns exist, take an alternative action
   print("One or more specified columns do not exist in the dataframe.")
@@ -1190,6 +1245,7 @@ top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE
 top_var_df3 <- as.data.frame(top_variables_dim2)
 top_var_df3$Variable <- rownames(top_var_df3)
 subset_data_matrix10 <- data_matrix10[, top_var_df3$Variable]
+label_test<-data_matrix10$STATUS
 #View(subset_data_matrix10)
 # Recalculate the distance matrix
 library(gower)
@@ -1227,14 +1283,8 @@ fviz_nbclust(subset_data_matrix10,hcut,method = c("silhouette"))
 library(fpc)
 dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
 print(dunn_index)
-
-#transfrom variable
-subset_data_matrix10[["CNT_CHILDREN"]] <- as.factor(subset_data_matrix10[["CNT_CHILDREN"]])
-subset_data_matrix10[["FLAG_MOBIL"]] <- as.factor(subset_data_matrix10[["FLAG_MOBIL"]])
-subset_data_matrix10[["FLAG_WORK_PHONE"]] <- as.factor(subset_data_matrix10[["FLAG_WORK_PHONE"]])
-subset_data_matrix10[["FLAG_PHONE"]] <- as.factor(subset_data_matrix10[["FLAG_PHONE"]])
-subset_data_matrix10[["FLAG_EMAIL"]] <- as.factor(subset_data_matrix10[["FLAG_EMAIL"]])
-subset_data_matrix10[["CNT_FAM_MEMBERS"]] <- as.factor(subset_data_matrix10[["CNT_FAM_MEMBERS"]])
+#ARI
+adjustedRandIndex(cutree_hc,label_test)
 #kprototype
 library(klaR)
 library(clustMixType)
@@ -1258,6 +1308,7 @@ fviz_silhouette(silhouette_score)
 library(fpc)
 dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
 print(dunn_index)
-
+#ARI
+adjustedRandIndex(km$cluster,label_test)
 
 
