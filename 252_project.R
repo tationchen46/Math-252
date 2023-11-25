@@ -1,7 +1,8 @@
-application <- read.csv("/Users/tianxiangchen/Desktop/Math252/dataset/credit_record.csv", header = TRUE)
+
+application <- read.csv("/Users/Maggie/Documents/GitHub/Math-252/credit_record.csv", header = TRUE)
 View(application)
 nrow(application)
-credit_record <- read.csv("/Users/tianxiangchen/Desktop/Math252/dataset/application_record.csv", header = TRUE)
+credit_record <- read.csv("/Users/Maggie/Documents/GitHub/Math-252/application_record.csv", header = TRUE)
 # Merging
 merged_data <- merge(application, credit_record, by = "ID")
 reduced_merged_data<-merged_data[1:1000,]
@@ -121,15 +122,15 @@ for (col in colnames(subset_data_matrix1)) {
 dist_matrix = daisy(subset_data_matrix1,metric = 'gower')
 
 # Hierarchical clustering
-hc <- hclust(dist_matrix, method = "complete")  # You can try different methods like "average", "single", etc.
+hc <- hclust(dist_matrix, method = "complete") 
 print(hc)
-plot(hc)
+plot(hc, main="Cluster Dendrogram for Higher education degree group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 3) # for example, 3 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix1,metric = 'gower'))
-plot(silhouette_score,col="blue")
+plot(silhouette_score,col="grey", main="Silhouette plot for higher education degree group")
 
 #cophenetic
 copheneticA<-cophenetic(hc)
@@ -252,13 +253,13 @@ dist_matrix = daisy(subset_data_matrix2,metric = 'gower')
 # Hierarchical clustering
 hc <- hclust(dist_matrix, method = "complete")  # You can try different methods like "average", "single", etc.
 print(hc)
-plot(hc)
+plot(hc, main = "Cluster Dendrogram for retired group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 8) # for example, 8 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix2,metric = 'gower'))
-plot(silhouette_score,col="blue")
+plot(silhouette_score,col="grey", main="silhouette plot for retired group")
 #cophenetic
 copheneticA<-cophenetic(hc)
 cor(copheneticA,dist_matrix)
@@ -392,13 +393,13 @@ dist_matrix = daisy(subset_data_matrix3,metric = 'gower')
 # Hierarchical clustering
 hc <- hclust(dist_matrix, method = "complete")  # You can try different methods like "average", "single", etc.
 print(hc)
-plot(hc)
+plot(hc, main="Cluster Dendrogram for married group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 8) # for example, 3 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix3,metric = 'gower'))
-plot(silhouette_score,col="blue")
+plot(silhouette_score,col="grey", main="silhouette plot for married group")
 #cophenetic
 copheneticA<-cophenetic(hc)
 cor(copheneticA,dist_matrix)
@@ -518,13 +519,13 @@ dist_matrix = daisy(subset_data_matrix4,metric = 'gower')
 # Hierarchical clustering
 hc <- hclust(dist_matrix, method = "complete")  # You can try different methods like "average", "single", etc.
 print(hc)
-plot(hc)
+plot(hc, main = "Cluster Dendrogram for property group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 8) # for example, 3 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix4,metric = 'gower'))
-plot(silhouette_score,col="blue")
+plot(silhouette_score,col="grey", main = "silhouette plot for property group")
 #cophenetic
 copheneticA<-cophenetic(hc)
 cor(copheneticA,dist_matrix)
@@ -645,13 +646,13 @@ dist_matrix = daisy(subset_data_matrix5,metric = 'gower')
 # Hierarchical clustering
 hc <- hclust(dist_matrix, method = "complete")  # You can try different methods like "average", "single", etc.
 print(hc)
-plot(hc)
+plot(hc, main = "Cluster Dendrogram for manager group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 3) # for example, 3 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix5,metric = 'gower'))
-plot(silhouette_score,col="blue")
+plot(silhouette_score,col="grey", main = "silhouette plot for manager group")
 #cophenetic
 copheneticA<-cophenetic(hc)
 cor(copheneticA,dist_matrix)
@@ -770,13 +771,13 @@ dist_matrix = daisy(subset_data_matrix6,metric = 'gower')
 # Hierarchical clustering
 hc <- hclust(dist_matrix, method = "complete")  # You can try different methods like "average", "single", etc.
 print(hc)
-plot(hc)
+plot(hc, main = "Cluster Dendrogram for male group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 6) # for example, 3 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix6,metric = 'gower'))
-plot(silhouette_score,col="blue")
+plot(silhouette_score,col="grey", main = "silhouette plot for male group")
 #cophenetic
 copheneticA<-cophenetic(hc)
 cor(copheneticA,dist_matrix)
@@ -894,13 +895,13 @@ dist_matrix = daisy(subset_data_matrix7,metric = 'gower')
 # Hierarchical clustering
 hc <- hclust(dist_matrix, method = "complete")  # You can try different methods like "average", "single", etc.
 print(hc)
-plot(hc)
+plot(hc, main = "Cluster Dendrogram for female group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 4) # for example, 4 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix7,metric = 'gower'))
-plot(silhouette_score,col="blue")
+plot(silhouette_score,col="grey", main = "silhouette plot for female group")
 #cophenetic
 copheneticA<-cophenetic(hc)
 cor(copheneticA,dist_matrix)
@@ -1017,14 +1018,14 @@ dist_matrix = daisy(subset_data_matrix8,metric = 'gower')
 # Hierarchical clustering
 hc <- hclust(dist_matrix, method = "complete")  # You can try different methods like "average", "single", etc.
 print(hc)
-plot(hc)
+plot(hc, main = "Cluster Dendrogram for above 30 yrs old group")
 
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 8) # for example, 8 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix8,metric = 'gower'))
-plot(silhouette_score,col="blue")
+plot(silhouette_score,col="grey", main = "silhouette plot for above 30 yrs old group")
 #cophenetic
 copheneticA<-cophenetic(hc)
 cor(copheneticA,dist_matrix)
@@ -1142,13 +1143,13 @@ dist_matrix = daisy(subset_data_matrix9,metric = 'gower')
 # Hierarchical clustering
 hc <- hclust(dist_matrix, method = "complete")  # You can try different methods like "average", "single", etc.
 print(hc)
-plot(hc)
+plot(hc, main = "Cluster Dendrogram for below 30 yrs old group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 4) # for example, 4 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix9,metric = 'gower'))
-plot(silhouette_score,col="blue")
+plot(silhouette_score,col="grey", main = "silhouette plot for below 30 yrs old group")
 #cophenetic
 copheneticA<-cophenetic(hc)
 cor(copheneticA,dist_matrix)
@@ -1264,13 +1265,13 @@ dist_matrix = daisy(subset_data_matrix10,metric = 'gower')
 # Hierarchical clustering
 hc <- hclust(dist_matrix, method = "complete")  # You can try different methods like "average", "single", etc.
 print(hc)
-plot(hc)
+plot(hc, main = "Cluster Dendrogram for single group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 3) # for example, 3 clusters
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix10,metric = 'gower'))
-plot(silhouette_score,col="blue")
+plot(silhouette_score,col="grey", main = "silhouette plot for single group")
 #cophenetic
 copheneticA<-cophenetic(hc)
 cor(copheneticA,dist_matrix)
