@@ -1,3 +1,7 @@
+#1.Perform FAMD and retain only the principal components that are significant.
+#2.Apply hierarchical clustering with different linkage methods and k-prototype clustering.
+#3.Calculate the evaluation metrics for each clustering result.
+#4.Determine which variables contribute the most to the clustering.
 
 application <- read.csv("/Users/Maggie/Documents/GitHub/Math-252/credit_record.csv", header = TRUE)
 View(application)
