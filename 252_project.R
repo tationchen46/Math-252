@@ -1,8 +1,7 @@
-
-application <- read.csv("/Users/Maggie/Documents/GitHub/Math-252/credit_record.csv", header = TRUE)
+application <- read.csv("/Users/tianxiangchen/Desktop/Math252/dataset/credit_record.csv", header = TRUE)
 View(application)
 nrow(application)
-credit_record <- read.csv("/Users/Maggie/Documents/GitHub/Math-252/application_record.csv", header = TRUE)
+credit_record <- read.csv("/Users/tianxiangchen/Desktop/Math252/dataset/application_record.csv", header = TRUE)
 # Merging
 merged_data <- merge(application, credit_record, by = "ID")
 reduced_merged_data<-merged_data[1:1000,]
@@ -62,6 +61,9 @@ print(paste("Number of unique values in STATUS:", length(unique_values)))
 #remove the "" value in the cells
 highschool <- highschool[highschool$OCCUPATION_TYPE != "", ]
 View(highschool)
+
+library(ggplot2)
+library(corrplot)
 #Remove some variable unnecessary
 # Convert to matrix
 library(dplyr)
@@ -128,6 +130,24 @@ plot(hc, main="Cluster Dendrogram for Higher education degree group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 3) # for example, 3 clusters
+#check what's the attribution for each cluster.
+subset_data_matrix1$Cluster <- cutree_hc
+
+#here we will use average to represent the numerical variable for each cluster
+continuous_vars <- names(subset_data_matrix1)[sapply(subset_data_matrix1, is.numeric)]  # Adjust this based on your data
+average_continuous <- aggregate(subset_data_matrix1[continuous_vars], 
+                                by = list(Cluster = subset_data_matrix1$Cluster), 
+                                mean)
+#here we will use most frequence to represent the categorical variable for each cluster
+get_mode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+categorical_vars <- names(subset_data_matrix1)[sapply(subset_data_matrix1, function(x) is.factor(x) || is.character(x))]  # Adjust based on your data
+
+mode_categorical <- do.call(data.frame,
+                            lapply(subset_data_matrix1[categorical_vars], function(x) tapply(x, subset_data_matrix1$Cluster, get_mode)))
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix1,metric = 'gower'))
 plot(silhouette_score,col="grey", main="Silhouette plot for higher education degree group")
@@ -167,7 +187,8 @@ avg_sil_width <- mean(silhouette_score[, "sil_width"])
 print(avg_sil_width)
 # Plot the silhouette plot (optional)
 fviz_silhouette(silhouette_score)
-
+# show what's the attribution for each cluster
+km$centers
 #dunn index
 library(fpc)
 dunn_index <- cluster.stats(gower_dist, km$cluster)$dunn
@@ -257,6 +278,26 @@ plot(hc, main = "Cluster Dendrogram for retired group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 8) # for example, 8 clusters
+#check what's the attribution for each cluster.
+subset_data_matrix2$Cluster <- cutree_hc
+
+#here we will use average to represent the numerical variable for each cluster
+continuous_vars <- names(subset_data_matrix2)[sapply(subset_data_matrix2, is.numeric)]  # Adjust this based on your data
+average_continuous <- aggregate(subset_data_matrix2[continuous_vars], 
+                                by = list(Cluster = subset_data_matrix2$Cluster), 
+                                mean)
+#here we will use most frequence to represent the categorical variable for each cluster
+get_mode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+categorical_vars <- names(subset_data_matrix2)[sapply(subset_data_matrix2, function(x) is.factor(x) || is.character(x))]  # Adjust based on your data
+
+mode_categorical <- do.call(data.frame,
+                            lapply(subset_data_matrix2[categorical_vars], function(x) tapply(x, subset_data_matrix2$Cluster, get_mode)))
+
+
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix2,metric = 'gower'))
 plot(silhouette_score,col="grey", main="silhouette plot for retired group")
@@ -285,6 +326,7 @@ try_clusters <- min(nrow(subset_data_matrix2), 8)
 # Perform k-proto clustering on the cleaned matrix
 # Adjust 'k' as necessary for your analysis
 km <- kproto(subset_data_matrix2, try_clusters)
+km$centers
 # Calculate Gower distance
 gower_dist <- daisy(subset_data_matrix2, metric = 'gower')
 # Calculate silhouette score
@@ -397,6 +439,26 @@ plot(hc, main="Cluster Dendrogram for married group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 8) # for example, 3 clusters
+
+#check what's the attribution for each cluster.
+subset_data_matrix3$Cluster <- cutree_hc
+
+#here we will use average to represent the numerical variable for each cluster
+continuous_vars <- names(subset_data_matrix3)[sapply(subset_data_matrix3, is.numeric)]  # Adjust this based on your data
+average_continuous <- aggregate(subset_data_matrix3[continuous_vars], 
+                                by = list(Cluster = subset_data_matrix3$Cluster), 
+                                mean)
+#here we will use most frequence to represent the categorical variable for each cluster
+get_mode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+categorical_vars <- names(subset_data_matrix3)[sapply(subset_data_matrix3, function(x) is.factor(x) || is.character(x))]  # Adjust based on your data
+
+mode_categorical <- do.call(data.frame,
+                            lapply(subset_data_matrix3[categorical_vars], function(x) tapply(x, subset_data_matrix3$Cluster, get_mode)))
+
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix3,metric = 'gower'))
 plot(silhouette_score,col="grey", main="silhouette plot for married group")
@@ -425,6 +487,7 @@ try_clusters <- min(nrow(subset_data_matrix3), 8)
 # Perform k-proto clustering on the cleaned matrix
 # Adjust 'k' as necessary for your analysis
 km <- kproto(subset_data_matrix3, try_clusters)
+km$centers
 # Calculate Gower distance
 gower_dist <- daisy(subset_data_matrix3, metric = 'gower')
 # Calculate silhouette score
@@ -523,6 +586,26 @@ plot(hc, main = "Cluster Dendrogram for property group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 8) # for example, 3 clusters
+
+#check what's the attribution for each cluster.
+subset_data_matrix4$Cluster <- cutree_hc
+
+#here we will use average to represent the numerical variable for each cluster
+continuous_vars <- names(subset_data_matrix4)[sapply(subset_data_matrix4, is.numeric)]  # Adjust this based on your data
+average_continuous <- aggregate(subset_data_matrix4[continuous_vars], 
+                                by = list(Cluster = subset_data_matrix4$Cluster), 
+                                mean)
+#here we will use most frequence to represent the categorical variable for each cluster
+get_mode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+categorical_vars <- names(subset_data_matrix4)[sapply(subset_data_matrix4, function(x) is.factor(x) || is.character(x))]  # Adjust based on your data
+
+mode_categorical <- do.call(data.frame,
+                            lapply(subset_data_matrix4[categorical_vars], function(x) tapply(x, subset_data_matrix4$Cluster, get_mode)))
+
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix4,metric = 'gower'))
 plot(silhouette_score,col="grey", main = "silhouette plot for property group")
@@ -552,6 +635,7 @@ try_clusters <- min(nrow(subset_data_matrix4), 8)
 # Perform k-proto clustering on the cleaned matrix
 # Adjust 'k' as necessary for your analysis
 km <- kproto(subset_data_matrix4, try_clusters)
+km$centers
 # Calculate Gower distance
 gower_dist <- daisy(subset_data_matrix4, metric = 'gower')
 # Calculate silhouette score
@@ -650,6 +734,26 @@ plot(hc, main = "Cluster Dendrogram for manager group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 3) # for example, 3 clusters
+
+#check what's the attribution for each cluster.
+subset_data_matrix5$Cluster <- cutree_hc
+
+#here we will use average to represent the numerical variable for each cluster
+continuous_vars <- names(subset_data_matrix5)[sapply(subset_data_matrix5, is.numeric)]  # Adjust this based on your data
+average_continuous <- aggregate(subset_data_matrix5[continuous_vars], 
+                                by = list(Cluster = subset_data_matrix5$Cluster), 
+                                mean)
+#here we will use most frequence to represent the categorical variable for each cluster
+get_mode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+categorical_vars <- names(subset_data_matrix5)[sapply(subset_data_matrix5, function(x) is.factor(x) || is.character(x))]  # Adjust based on your data
+
+mode_categorical <- do.call(data.frame,
+                            lapply(subset_data_matrix5[categorical_vars], function(x) tapply(x, subset_data_matrix5$Cluster, get_mode)))
+
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix5,metric = 'gower'))
 plot(silhouette_score,col="grey", main = "silhouette plot for manager group")
@@ -679,6 +783,7 @@ try_clusters <- min(nrow(subset_data_matrix5), 3)
 # Perform k-proto clustering on the cleaned matrix
 # Adjust 'k' as necessary for your analysis
 km <- kproto(subset_data_matrix5, try_clusters)
+km$centers
 # Calculate Gower distance
 gower_dist <- daisy(subset_data_matrix5, metric = 'gower')
 # Calculate silhouette score
@@ -775,6 +880,25 @@ plot(hc, main = "Cluster Dendrogram for male group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 6) # for example, 3 clusters
+
+#check what's the attribution for each cluster.
+subset_data_matrix6$Cluster <- cutree_hc
+
+#here we will use average to represent the numerical variable for each cluster
+continuous_vars <- names(subset_data_matrix6)[sapply(subset_data_matrix6, is.numeric)]  # Adjust this based on your data
+average_continuous <- aggregate(subset_data_matrix6[continuous_vars], 
+                                by = list(Cluster = subset_data_matrix6$Cluster), 
+                                mean)
+#here we will use most frequence to represent the categorical variable for each cluster
+get_mode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+categorical_vars <- names(subset_data_matrix6)[sapply(subset_data_matrix6, function(x) is.factor(x) || is.character(x))]  # Adjust based on your data
+
+mode_categorical <- do.call(data.frame,
+                            lapply(subset_data_matrix6[categorical_vars], function(x) tapply(x, subset_data_matrix6$Cluster, get_mode)))
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix6,metric = 'gower'))
 plot(silhouette_score,col="grey", main = "silhouette plot for male group")
@@ -802,6 +926,7 @@ try_clusters <- min(nrow(subset_data_matrix6), 8)
 # Perform k-proto clustering on the cleaned matrix
 # Adjust 'k' as necessary for your analysis
 km <- kproto(subset_data_matrix6, try_clusters)
+km$centers
 # Calculate Gower distance
 gower_dist <- daisy(subset_data_matrix6, metric = 'gower')
 # Calculate silhouette score
@@ -899,6 +1024,26 @@ plot(hc, main = "Cluster Dendrogram for female group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 4) # for example, 4 clusters
+
+#check what's the attribution for each cluster.
+subset_data_matrix7$Cluster <- cutree_hc
+
+#here we will use average to represent the numerical variable for each cluster
+continuous_vars <- names(subset_data_matrix7)[sapply(subset_data_matrix7, is.numeric)]  # Adjust this based on your data
+average_continuous <- aggregate(subset_data_matrix7[continuous_vars], 
+                                by = list(Cluster = subset_data_matrix7$Cluster), 
+                                mean)
+#here we will use most frequence to represent the categorical variable for each cluster
+get_mode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+categorical_vars <- names(subset_data_matrix7)[sapply(subset_data_matrix7, function(x) is.factor(x) || is.character(x))]  # Adjust based on your data
+
+mode_categorical <- do.call(data.frame,
+                            lapply(subset_data_matrix7[categorical_vars], function(x) tapply(x, subset_data_matrix7$Cluster, get_mode)))
+
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix7,metric = 'gower'))
 plot(silhouette_score,col="grey", main = "silhouette plot for female group")
@@ -926,6 +1071,7 @@ try_clusters <- min(nrow(subset_data_matrix7), 4)
 # Perform k-proto clustering on the cleaned matrix
 # Adjust 'k' as necessary for your analysis
 km <- kproto(subset_data_matrix7, try_clusters)
+km$centers
 # Calculate Gower distance
 gower_dist <- daisy(subset_data_matrix7, metric = 'gower')
 # Calculate silhouette score
@@ -1023,6 +1169,26 @@ plot(hc, main = "Cluster Dendrogram for above 30 yrs old group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 8) # for example, 8 clusters
+
+#check what's the attribution for each cluster.
+subset_data_matrix8$Cluster <- cutree_hc
+
+#here we will use average to represent the numerical variable for each cluster
+continuous_vars <- names(subset_data_matrix8)[sapply(subset_data_matrix8, is.numeric)]  # Adjust this based on your data
+average_continuous <- aggregate(subset_data_matrix8[continuous_vars], 
+                                by = list(Cluster = subset_data_matrix8$Cluster), 
+                                mean)
+#here we will use most frequence to represent the categorical variable for each cluster
+get_mode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+categorical_vars <- names(subset_data_matrix8)[sapply(subset_data_matrix8, function(x) is.factor(x) || is.character(x))]  # Adjust based on your data
+
+mode_categorical <- do.call(data.frame,
+                            lapply(subset_data_matrix8[categorical_vars], function(x) tapply(x, subset_data_matrix8$Cluster, get_mode)))
+
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix8,metric = 'gower'))
 plot(silhouette_score,col="grey", main = "silhouette plot for above 30 yrs old group")
@@ -1051,6 +1217,7 @@ try_clusters <- min(nrow(subset_data_matrix8), 8)
 # Perform k-proto clustering on the cleaned matrix
 # Adjust 'k' as necessary for your analysis
 km <- kproto(subset_data_matrix8, try_clusters)
+km$centers
 # Calculate Gower distance
 gower_dist <- daisy(subset_data_matrix8, metric = 'gower')
 # Calculate silhouette score
@@ -1147,6 +1314,26 @@ plot(hc, main = "Cluster Dendrogram for below 30 yrs old group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 4) # for example, 4 clusters
+
+#check what's the attribution for each cluster.
+subset_data_matrix9$Cluster <- cutree_hc
+
+#here we will use average to represent the numerical variable for each cluster
+continuous_vars <- names(subset_data_matrix9)[sapply(subset_data_matrix9, is.numeric)]  # Adjust this based on your data
+average_continuous <- aggregate(subset_data_matrix9[continuous_vars], 
+                                by = list(Cluster = subset_data_matrix9$Cluster), 
+                                mean)
+#here we will use most frequence to represent the categorical variable for each cluster
+get_mode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+categorical_vars <- names(subset_data_matrix9)[sapply(subset_data_matrix9, function(x) is.factor(x) || is.character(x))]  # Adjust based on your data
+
+mode_categorical <- do.call(data.frame,
+                            lapply(subset_data_matrix9[categorical_vars], function(x) tapply(x, subset_data_matrix9$Cluster, get_mode)))
+
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix9,metric = 'gower'))
 plot(silhouette_score,col="grey", main = "silhouette plot for below 30 yrs old group")
@@ -1173,6 +1360,7 @@ try_clusters <- min(nrow(subset_data_matrix9), 4)
 # Perform k-proto clustering on the cleaned matrix
 # Adjust 'k' as necessary for your analysis
 km <- kproto(subset_data_matrix9, try_clusters)
+km$centers
 # Calculate Gower distance
 gower_dist <- daisy(subset_data_matrix9, metric = 'gower')
 # Calculate silhouette score
@@ -1269,6 +1457,26 @@ plot(hc, main = "Cluster Dendrogram for single group")
 
 # Cutting the dendrogram to form clusters
 cutree_hc <- cutree(hc, k = 3) # for example, 3 clusters
+
+#check what's the attribution for each cluster.
+subset_data_matrix10$Cluster <- cutree_hc
+
+#here we will use average to represent the numerical variable for each cluster
+continuous_vars <- names(subset_data_matrix10)[sapply(subset_data_matrix10, is.numeric)]  # Adjust this based on your data
+average_continuous <- aggregate(subset_data_matrix10[continuous_vars], 
+                                by = list(Cluster = subset_data_matrix10$Cluster), 
+                                mean)
+#here we will use most frequence to represent the categorical variable for each cluster
+get_mode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+categorical_vars <- names(subset_data_matrix10)[sapply(subset_data_matrix10, function(x) is.factor(x) || is.character(x))]  # Adjust based on your data
+
+mode_categorical <- do.call(data.frame,
+                            lapply(subset_data_matrix10[categorical_vars], function(x) tapply(x, subset_data_matrix10$Cluster, get_mode)))
+
 # Silhouette analysis
 silhouette_score <- silhouette(cutree_hc, daisy(subset_data_matrix10,metric = 'gower'))
 plot(silhouette_score,col="grey", main = "silhouette plot for single group")
@@ -1295,6 +1503,7 @@ try_clusters <- min(nrow(subset_data_matrix10), 3)
 # Perform k-proto clustering on the cleaned matrix
 # Adjust 'k' as necessary for your analysis
 km <- kproto(subset_data_matrix10, try_clusters)
+km$centers
 # Calculate Gower distance
 gower_dist <- daisy(subset_data_matrix10, metric = 'gower')
 # Calculate silhouette score
