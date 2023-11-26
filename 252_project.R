@@ -1,7 +1,7 @@
-application <- read.csv("/Users/tianxiangchen/Desktop/Math252/dataset/credit_record.csv", header = TRUE)
+application <- read.csv("/Users/Maggie/Documents/GitHub/Math-252/credit_record.csv", header = TRUE)
 View(application)
 nrow(application)
-credit_record <- read.csv("/Users/tianxiangchen/Desktop/Math252/dataset/application_record.csv", header = TRUE)
+credit_record <- read.csv("/Users/Maggie/Documents/GitHub/Math-252/application_record.csv", header = TRUE)
 # Merging
 merged_data <- merge(application, credit_record, by = "ID")
 reduced_merged_data<-merged_data[1:1000,]
@@ -122,7 +122,7 @@ for (col in colnames(subset_data_matrix1)) {
 
 #subset_data_matrix1<-as.data.frame(subset_data_matrix1)
 dist_matrix = daisy(subset_data_matrix1,metric = 'gower')
-
+ 
 # Hierarchical clustering
 hc <- hclust(dist_matrix, method = "complete") 
 print(hc)
@@ -475,9 +475,6 @@ library(fpc)
 dunn_index <- cluster.stats(dist_matrix, cutree_hc)$dunn
 print(dunn_index)
 
-library(mclust)
-adjustedRandIndex(cutree_hc,label_test)
-
 #kprototype
 library(klaR)
 library(clustMixType)
@@ -560,9 +557,9 @@ famd_result <- FAMD(data_matrix4, graph = FALSE)
 # Selecting top contributing variables for the first ten principal component
 top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE)[1:10]
 # for the first ten principal component name
-top_var_df3 <- as.data.frame(top_variables_dim2)
-top_var_df3$Variable <- rownames(top_var_df3)
-subset_data_matrix4 <- data_matrix4[, top_var_df3$Variable]
+top_var_df4 <- as.data.frame(top_variables_dim2)
+top_var_df4$Variable <- rownames(top_var_df4)
+subset_data_matrix4 <- data_matrix4[, top_var_df4$Variable]
 label_test<-data_matrix4$STATUS
 #View(subset_data_matrix4)
 # Recalculate the distance matrix
@@ -708,9 +705,9 @@ famd_result <- FAMD(data_matrix5, graph = FALSE)
 # Selecting top contributing variables for the first ten principal component
 top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE)[1:10]
 # for the first ten principal component name
-top_var_df3 <- as.data.frame(top_variables_dim2)
-top_var_df3$Variable <- rownames(top_var_df3)
-subset_data_matrix5 <- data_matrix5[, top_var_df3$Variable]
+top_var_df5 <- as.data.frame(top_variables_dim2)
+top_var_df5$Variable <- rownames(top_var_df5)
+subset_data_matrix5 <- data_matrix5[, top_var_df5$Variable]
 label_test<-data_matrix5$STATUS
 #View(subset_data_matrix4)
 # Recalculate the distance matrix
@@ -854,9 +851,9 @@ famd_result <- FAMD(data_matrix6, graph = FALSE)
 # Selecting top contributing variables for the first ten principal component
 top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE)[1:10]
 # for the first ten principal component name
-top_var_df3 <- as.data.frame(top_variables_dim2)
-top_var_df3$Variable <- rownames(top_var_df3)
-subset_data_matrix6 <- data_matrix6[, top_var_df3$Variable]
+top_var_df6 <- as.data.frame(top_variables_dim2)
+top_var_df6$Variable <- rownames(top_var_df6)
+subset_data_matrix6 <- data_matrix6[, top_var_df6$Variable]
 label_test<-data_matrix6$STATUS
 #View(subset_data_matrix4)
 # Recalculate the distance matrix
