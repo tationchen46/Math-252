@@ -994,8 +994,8 @@ famd_result <- FAMD(data_matrix7, graph = FALSE)
 # Selecting top contributing variables for the first ten principal component
 top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE)[1:10]
 # for the first ten principal component name
-top_var_df3 <- as.data.frame(top_variables_dim2)
-top_var_df3$Variable <- rownames(top_var_df3)
+top_var_df7 <- as.data.frame(top_variables_dim2)
+top_var_df7$Variable <- rownames(top_var_df7)
 subset_data_matrix7 <- data_matrix7[, top_var_df3$Variable]
 label_test<-data_matrix7$STATUS
 
@@ -1139,9 +1139,9 @@ famd_result <- FAMD(data_matrix8, graph = FALSE)
 # Selecting top contributing variables for the first ten principal component
 top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE)[1:10]
 # for the first ten principal component name
-top_var_df3 <- as.data.frame(top_variables_dim2)
-top_var_df3$Variable <- rownames(top_var_df3)
-subset_data_matrix8 <- data_matrix8[, top_var_df3$Variable]
+top_var_df8 <- as.data.frame(top_variables_dim2)
+top_var_df8$Variable <- rownames(top_var_df8)
+subset_data_matrix8 <- data_matrix8[, top_var_df8$Variable]
 label_test<-data_matrix8$STATUS
 #View(subset_data_matrix8)
 # Recalculate the distance matrix
@@ -1285,9 +1285,9 @@ famd_result <- FAMD(data_matrix9, graph = FALSE)
 # Selecting top contributing variables for the first ten principal component
 top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE)[1:10]
 # for the first ten principal component name
-top_var_df3 <- as.data.frame(top_variables_dim2)
-top_var_df3$Variable <- rownames(top_var_df3)
-subset_data_matrix9 <- data_matrix9[, top_var_df3$Variable]
+top_var_df9 <- as.data.frame(top_variables_dim2)
+top_var_df9$Variable <- rownames(top_var_df9)
+subset_data_matrix9 <- data_matrix9[, top_var_df9$Variable]
 label_test<-data_matrix9$STATUS
 #View(subset_data_matrix9)
 # Recalculate the distance matrix
@@ -1428,8 +1428,8 @@ famd_result <- FAMD(data_matrix10, graph = FALSE)
 # Selecting top contributing variables for the first ten principal component
 top_variables_dim2 <- sort(famd_result$var$contrib[, "Dim.1"], decreasing = TRUE)[1:10]
 # for the first ten principal component name
-top_var_df3 <- as.data.frame(top_variables_dim2)
-top_var_df3$Variable <- rownames(top_var_df3)
+top_var_df10 <- as.data.frame(top_variables_dim2)
+top_var_df10$Variable <- rownames(top_var_df10)
 subset_data_matrix10 <- data_matrix10[, top_var_df3$Variable]
 label_test<-data_matrix10$STATUS
 #View(subset_data_matrix10)
